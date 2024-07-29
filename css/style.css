@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding-top: 40px;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction:column;
+    background: linear-gradient(to top left, #ffff66 4%, #ff6600 83%) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.form {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color:  #ffbf80;
+    border-radius: 14px;
+}
+#input {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 14px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#add-task {
+    width: 100px;
+    height: 20px;
+    background-color: 	 #ffb366 ;
+    cursor: pointer;
+    border-radius: 14px;
+    color: black;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.form-container {
+    background-color: rgba(31, 53, 64,0.5) ;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    /* opacity: 0.5; */
+}
+.task-holder {
+    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+    width: 700px;
+    /* height: 50px; */
+    /* background-color: rgba(50, 53, 64,0.5) ; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 14px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#remove-task {
+    width: 120px;
+    height: 30px;
+    border-radius: 14px;
+    background-color: 	 #ffb366;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border: none;
+    padding: 5px;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    display: none;
+
+}
+.task-holder #task{
+    background-color: #ffcc99;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 500px;
+    padding: 10px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    /* height: 30px; */
+    border-radius: 5px;
+    color:#663300;
+        /* background-color: #ffb366; */
+} 
